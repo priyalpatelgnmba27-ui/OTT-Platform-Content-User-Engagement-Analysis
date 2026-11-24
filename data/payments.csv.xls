@@ -1,0 +1,116 @@
+payment_id,subscription_id,payment_date,amount,payment_method,payment_status
+1,1,2025-03-11,199,UPI,Successful
+2,2,2025-04-29,199,UPI,Successful
+3,3,2026-03-06,499,Credit Card,Successful
+4,4,2025-11-18,199,Credit Card,Successful
+5,5,2025-11-04,649,Net Banking,Successful
+6,6,2025-01-10,649,Debit Card,Failed
+7,7,2025-03-17,199,UPI,Failed
+8,8,2025-03-12,199,Debit Card,Successful
+9,9,2026-07-11,499,Net Banking,Successful
+10,10,2026-07-22,499,Net Banking,Successful
+11,11,2025-05-18,499,Net Banking,Successful
+12,12,2025-06-09,499,Net Banking,Successful
+13,13,2025-07-28,499,Credit Card,Successful
+14,14,2025-02-22,149,UPI,Successful
+15,15,2025-12-08,199,Credit Card,Pending
+16,16,2026-01-16,199,Wallet,Successful
+17,17,2026-07-29,149,Wallet,Successful
+18,18,2026-07-13,149,Credit Card,Successful
+19,19,2026-03-17,199,Debit Card,Successful
+20,20,2025-02-10,499,Credit Card,Successful
+21,21,2025-12-29,649,Net Banking,Successful
+22,22,2025-08-31,199,Net Banking,Successful
+23,23,2025-10-06,649,UPI,Successful
+24,24,2026-02-26,199,Debit Card,Successful
+25,25,2025-02-09,649,Wallet,Successful
+26,26,2025-03-26,499,Wallet,Successful
+27,27,2025-07-17,649,Credit Card,Successful
+28,28,2025-10-13,499,Debit Card,Pending
+29,29,2026-07-04,499,Wallet,Successful
+30,30,2025-09-25,199,Credit Card,Successful
+31,31,2026-09-03,649,Net Banking,Successful
+32,32,2026-10-14,649,Wallet,Successful
+33,33,2026-08-14,199,Wallet,Failed
+34,34,2026-10-06,649,Credit Card,Successful
+35,35,2025-07-21,499,Net Banking,Successful
+36,36,2025-11-18,149,Credit Card,Successful
+37,37,2026-02-23,499,Net Banking,Successful
+38,38,2025-07-16,649,Debit Card,Successful
+39,39,2025-06-28,499,UPI,Pending
+40,40,2025-08-04,649,Wallet,Successful
+41,41,2026-04-22,649,Net Banking,Successful
+42,42,2025-06-23,149,UPI,Successful
+43,43,2025-12-10,149,Wallet,Successful
+44,44,2025-11-14,199,Net Banking,Successful
+45,45,2025-09-08,649,UPI,Successful
+46,46,2025-11-02,149,UPI,Pending
+47,47,2026-01-29,649,Net Banking,Successful
+48,48,2025-01-06,149,Wallet,Successful
+49,49,2026-06-15,649,UPI,Successful
+50,50,2026-07-23,149,Wallet,Successful
+51,51,2026-07-27,499,Wallet,Successful
+52,52,2026-06-01,649,Net Banking,Successful
+53,53,2025-06-12,649,Debit Card,Failed
+54,54,2025-10-11,649,Credit Card,Successful
+55,55,2025-10-20,199,Debit Card,Successful
+56,56,2025-03-24,199,Wallet,Successful
+57,57,2025-08-08,149,Debit Card,Successful
+58,58,2026-03-02,149,UPI,Successful
+59,59,2026-08-22,149,Credit Card,Successful
+60,60,2026-05-04,149,Debit Card,Successful
+61,61,2026-03-06,199,Debit Card,Successful
+62,62,2025-01-30,649,Debit Card,Successful
+63,63,2025-06-19,649,UPI,Successful
+64,64,2026-02-08,149,Net Banking,Failed
+65,65,2026-04-18,199,Net Banking,Successful
+66,66,2026-05-31,499,Wallet,Successful
+67,67,2026-01-24,499,UPI,Successful
+68,68,2025-03-25,649,Net Banking,Failed
+69,69,2025-12-25,199,Credit Card,Successful
+70,70,2026-02-18,149,UPI,Successful
+71,71,2025-01-21,199,UPI,Successful
+72,72,2025-03-08,149,Wallet,Failed
+73,73,2025-09-20,499,Net Banking,Successful
+74,74,2025-04-28,199,Wallet,Successful
+75,75,2025-11-16,649,Credit Card,Failed
+76,76,2026-08-30,199,UPI,Pending
+77,77,2026-10-24,499,UPI,Successful
+78,78,2026-08-03,149,Net Banking,Successful
+79,79,2025-03-12,499,Net Banking,Successful
+80,80,2025-04-19,649,Credit Card,Failed
+81,81,2026-04-16,199,Credit Card,Successful
+82,82,2025-10-04,649,Credit Card,Successful
+83,83,2025-11-27,199,Wallet,Successful
+84,84,2026-04-07,199,Debit Card,Successful
+85,85,2026-01-24,499,Net Banking,Successful
+86,86,2025-08-06,499,Wallet,Successful
+87,87,2025-09-16,499,Credit Card,Failed
+88,88,2026-07-24,149,Debit Card,Successful
+89,89,2026-02-21,649,Net Banking,Pending
+90,90,2026-03-31,649,Credit Card,Successful
+91,91,2025-01-18,149,Wallet,Successful
+92,92,2025-11-10,499,Wallet,Successful
+93,93,2026-07-18,499,Wallet,Failed
+94,94,2025-09-15,199,Credit Card,Successful
+95,95,2026-07-03,199,Debit Card,Successful
+96,96,2026-08-27,499,Credit Card,Successful
+97,97,2026-01-05,199,Credit Card,Pending
+98,98,2025-10-08,149,Debit Card,Successful
+99,99,2025-05-10,649,Debit Card,Successful
+100,100,2026-04-26,649,Wallet,Successful
+101,101,2025-09-16,649,Net Banking,Successful
+102,102,2025-03-17,149,Wallet,Successful
+103,103,2025-03-29,199,Net Banking,Successful
+104,104,2026-09-03,199,Wallet,Successful
+105,105,2026-03-30,499,Net Banking,Successful
+106,106,2025-03-03,149,UPI,Successful
+107,107,2025-09-28,149,Credit Card,Successful
+108,108,2025-06-10,149,Debit Card,Pending
+109,109,2025-10-26,149,UPI,Successful
+110,110,2026-04-10,149,Debit Card,Successful
+111,111,2026-08-27,199,Wallet,Successful
+112,112,2025-06-02,499,Net Banking,Successful
+113,113,2025-11-11,499,Wallet,Successful
+114,114,2025-12-26,499,Wallet,Failed
+115,115,2026-05-21,649,Wallet,Successful

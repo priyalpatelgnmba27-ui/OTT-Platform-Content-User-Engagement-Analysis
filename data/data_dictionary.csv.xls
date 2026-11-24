@@ -1,0 +1,36 @@
+table_name,column_name,data_type,description
+users,user_id,INT,Primary key; unique user identifier
+users,user_name,VARCHAR,Fictional user label
+users,age,INT,User age in years
+users,city,VARCHAR,City; a few blanks intentionally included
+users,signup_date,DATE,Date user registered
+content,content_id,INT,Primary key
+content,title,VARCHAR,Fictional content title
+content,content_type,VARCHAR,"Movie, Series, or Documentary"
+content,genre,VARCHAR,Genre; some formatting inconsistencies intentionally included
+content,release_year,INT,Release year
+content,duration,INT,Duration in minutes
+subscriptions,subscription_id,INT,Primary key
+subscriptions,user_id,INT,Foreign key to users
+subscriptions,plan_name,VARCHAR,"Mobile, Basic, Standard, Premium"
+subscriptions,monthly_price,NUMERIC,Monthly plan price in INR
+subscriptions,start_date,DATE,Subscription start date
+subscriptions,end_date,DATE,Subscription end date
+subscriptions,status,VARCHAR,"Active, Expired, Cancelled"
+viewing_history,view_id,INT,Primary key
+viewing_history,user_id,INT,Foreign key to users
+viewing_history,content_id,INT,Foreign key to content
+viewing_history,watch_date,DATE,Viewing date
+viewing_history,watch_minutes,INT,Minutes watched in session
+viewing_history,completion_percentage,NUMERIC,Estimated content completion percentage
+ratings,rating_id,INT,Primary key
+ratings,user_id,INT,Foreign key to users
+ratings,content_id,INT,Foreign key to content
+ratings,rating,NUMERIC,Rating from 1.0 to 5.0
+ratings,rating_date,DATE,Date rating submitted
+payments,payment_id,INT,Primary key
+payments,subscription_id,INT,Foreign key to subscriptions
+payments,payment_date,DATE,Payment date
+payments,amount,NUMERIC,Payment amount in INR
+payments,payment_method,VARCHAR,"UPI, cards, net banking, wallet"
+payments,payment_status,VARCHAR,"Successful, Failed, Pending"
